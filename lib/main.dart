@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        backgroundColor: Colors.teal,
+        backgroundColor: Colors.indigo,
         // appBar: AppBar(
         //   backgroundColor: Colors.tealAccent,
         //   title: Text(
@@ -55,7 +55,7 @@ class MyApp extends StatelessWidget {
                 margin: EdgeInsets.symmetric(horizontal: 20, vertical: 5),
                 child: ListTile(
                   dense: true,
-                  iconColor: Colors.teal,
+                  iconColor: Colors.indigo,
                   leading: Icon(Icons.phone),
                   title: Text('###-###-####'),
                 ),
@@ -64,7 +64,7 @@ class MyApp extends StatelessWidget {
                 margin: EdgeInsets.symmetric(horizontal: 20, vertical: 5),
                 child: ListTile(
                   dense: true,
-                  iconColor: Colors.teal,
+                  iconColor: Colors.indigo,
                   leading: Icon(Icons.email),
                   title: Text('email@gmail.com'),
                 ),
